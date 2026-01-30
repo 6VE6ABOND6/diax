@@ -1,5 +1,5 @@
 import regex
-
+import Project.engine_tr as engine_tr
  
 user = {}
       
@@ -22,7 +22,9 @@ def askRegion():
              inDef()         
 
 def trDef():
- pass 
+    
+ pass
+  
 def usDef():
  pass
     
@@ -50,7 +52,13 @@ def askinfoBasic():
   if regexTest(name) is True:
    user["name"]=name
    break
-  
+ while True:
+  scndname=str(input("SecondName:")).strip()
+  if not scndname:
+   break  
+  if regexTest(scndname) is True:
+   user["scndname"]=scndname
+   break  
   
  while True:
   surname=str(input("Surname:")).strip()
