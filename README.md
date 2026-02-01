@@ -1,8 +1,4 @@
-# WordPass Generator ⚔️
-
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
-![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-green?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)
+# wordpass 
 
 
 **wordpass** is an, wordlist generator designed for penetration testing and security research.
