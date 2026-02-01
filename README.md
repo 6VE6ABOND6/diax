@@ -17,13 +17,13 @@ pip install regex
 2. Grant Execution Permissions (Linux/Kali)
    
 ```bash
-chmod +x main.py
+chmod +x wordpass.py
 ```
 
 Usage
 To start the tool, run the following command in your terminal:
 ```bash
-python3 main.py
+python3 wordpass.py
 ```
 Step-by-Step:
 Region Selection: Enter tr (for Turkey).
