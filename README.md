@@ -6,11 +6,17 @@
 ---
 
 ## 📦 Installation
-### 1. Clone the Repository
-First, download the tool to your system.
+
+You can install WordPass in two ways:
+
+### Option 1: Easy Install (.deb Package) 
+*Recommended for Kali Linux, Ubuntu, Debian users.*
+
+1. Download the latest **`wordpass.deb`** file from the [Releases](../../releases) page.
+2. Open your terminal in the download folder and run:
+
 ```bash
-git clone https://github.com/6VE6ABOND6/wordpass.git
-cd wordpass
+sudo apt install ./wordpass.deb
 ```
 
 ### 2. Install Required Libraries
@@ -19,19 +25,36 @@ Only regex is required beyond standard libraries.
 ```bash
 pip install regex
 ```
+Run:
 
-### 3. Grant Execution Permissions (Linux/Kali)
-   
 ```bash
-chmod +x wordpass.py
+wordpass
 ```
 
-  Usage
-  To start the tool, run the following command in your terminal:
+## Option 2: Manual Install (Source Code) 🛠️
+For Windows users or developers.
+
+1. Clone the Repository
+   
+```bash
+git clone [https://github.com/6VE6ABOND6/wordpass.git](https://github.com/6VE6ABOND6/wordpass.git)
+cd wordpass
+```
+2. Install Required Libraries
+
+```bash
+pip install regex
+```
+
+3. Run the Tool
+
 ```bash
 python3 wordpass.py
 ```
-### Step-by-Step:
+
+### Usage
+
+Step-by-Step:
 1. Region Selection: Enter tr (for Turkey).
 
 2. Information Entry: Input known details about the target (Name, Surname, Partner's Name, etc.).
