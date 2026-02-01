@@ -6,26 +6,32 @@
 ---
 
 ## 📦 Installation
+### 1. Clone the Repository
+First, download the tool to your system.
+```bash
+git clone [https://github.com/6VE6ABOND6/wordpass.git]
+cd wordpass
+```
 
-### 1. Install Required Libraries
-Only `regex` is required beyond standard libraries.
+### 2. Install Required Libraries
 
+Only regex is required beyond standard libraries.
 ```bash
 pip install regex
 ```
 
-2. Grant Execution Permissions (Linux/Kali)
+### 3. Grant Execution Permissions (Linux/Kali)
    
 ```bash
 chmod +x wordpass.py
 ```
 
-Usage
-To start the tool, run the following command in your terminal:
+  Usage
+  To start the tool, run the following command in your terminal:
 ```bash
 python3 wordpass.py
 ```
-Step-by-Step:
+### Step-by-Step:
 1. Region Selection: Enter tr (for Turkey).
 
 2. Information Entry: Input known details about the target (Name, Surname, Partner's Name, etc.).
@@ -36,7 +42,7 @@ Step-by-Step:
 
 <img width="706" height="275" alt="Ekran görüntüsü 2026-02-01 213028" src="https://github.com/user-attachments/assets/38270474-1494-4b57-ba21-d8fb43bfdaa9" />
 
-⚠️ Disclaimer
+### ⚠️ Disclaimer
 Use responsibly.
 
 This tool is developed for educational and security testing (Pentest) purposes only. Using it on systems without permission is illegal. The developer is not responsible for any misuse or damage caused by this tool.
