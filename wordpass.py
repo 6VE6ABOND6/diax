@@ -119,7 +119,7 @@ def trDef():
     print(WHITE + "\n[+] Generating wordlist... Please wait.")
     
     count = 0
-    with open("test.txt", "w", encoding="utf-8") as file:
+    with open("letstry.txt", "w", encoding="utf-8") as file:
         for password in e_tr.engineHearth(name, scndname, birthYear, partner, child, pet, username):
             file.write(password + "\n")
             count += 1
@@ -181,3 +181,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("\n\n 👋")
   
+
