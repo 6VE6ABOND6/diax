@@ -5,7 +5,7 @@
 
 ---
 
-## 📦 Installation
+## 📦 Installation 
 
 You can install WordPass in two ways:
 
